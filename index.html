@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+      integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+      integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- navbar starts here -->
+
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary px-2 px-md-3 px-lg-4 px-xl-5 py-4 fixed-top"
+      id="navbar"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand fs-3" href="#">Harley Quin.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav normal-nav mx-auto align-items-center">
+            <li class="nav-item fs-5 px-lg-2">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item fs-5 px-lg-2">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item fs-5 px-lg-2">
+              <a class="nav-link" href="#">Works</a>
+            </li>
+            <li class="nav-item fs-5 px-lg-2">
+              <a class="nav-link" href="#">Resume </a>
+            </li>
+            <li class="nav-item fs-5 px-lg-2">
+              <a class="nav-link" href="#">Blog </a>
+            </li>
+            <li class="nav-item fs-5 px-lg-2">
+              <a class="nav-link" href="#">Contact </a>
+            </li>
+          </ul>
+
+          <!-- social nav  -->
+          <ul class="navbar-nav flex-row mt-3 mt-lg-0 justify-content-center">
+            <li class="nav-item sitem">
+              <a class="nav-link social" aria-current="page" href="#"
+                ><i class="bi bi-dribbble"></i
+              ></a>
+            </li>
+            <li class="nav-item sitem">
+              <a class="nav-link social" aria-current="page" href="#"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li class="nav-item sitem">
+              <a class="nav-link social" aria-current="page" href="#"
+                ><i class="bi bi-github"></i
+              ></a>
+            </li>
+            <li class="nav-item sitem">
+              <a class="nav-link social" aria-current="page" href="#"
+                ><i class="bi bi-youtube"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="min-vh-100 d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="display-1 fw-normal">Hi there! I am Harley Quinn</h1>
+            <h4 class="my-5 fw-normal">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              reprehenderit!
+            </h4>
+            <button
+              type="button"
+              class="btn btn-danger py-3 px-4 fs-5 border border-3 border-dark border-opacity-10"
+            >
+              Get Connected
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section-connector section-padding">
+      <div class="container">
+        <h1 class="mb-3 text-center">Services</h1>
+        <p class="sec-title text-center">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam
+          nesciunt omnis doloribus ipsa quod id!
+        </p>
+        <div class="row mb-3 gy-3">
+          <div class="col-md-4">
+            <div class="card">
+              <i
+                class="bi bi-android2 bg-danger align-self-start m-3 px-3 py-2 rounded text-light"
+              ></i>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary py-2 mt-3 px-3 custom-link"
+                  >Go somewhere<i
+                    class="bi bi-arrow-right icon ms-3 bg-danger rounded-circle"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <i
+                class="bi bi-android2 bg-danger align-self-start m-3 px-3 py-2 rounded text-light"
+              ></i>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary py-2 mt-3 px-3 custom-link"
+                  >Go somewhere<i
+                    class="bi bi-arrow-right icon ms-3 bg-danger rounded-circle"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <i
+                class="bi bi-android2 bg-danger align-self-start m-3 px-3 py-2 rounded text-light"
+              ></i>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary py-2 mt-3 px-3 custom-link"
+                  >Go somewhere<i
+                    class="bi bi-arrow-right icon ms-3 bg-danger rounded-circle"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section-connector section-padding">
+      <div class="container-fluid">
+        <h1 class="mb-3 text-center">Work</h1>
+        <p class="sec-title text-center">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam
+          nesciunt omnis doloribus ipsa quod id!
+        </p>
+        <div class="row g-3">
+          <div class="col-md-4">
+            <div class="project">
+              <img src="image/p-1.jpg" class="img-fluid" alt="" />
+
+              <div class="content">
+                <a
+                  href="image/p-1.jpg"
+                  data-fancybox="gallery"
+                  class="btn btn-outline-light"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project">
+              <img src="image/p-2.jpg" class="img-fluid" alt="" />
+
+              <div class="content">
+                <a
+                  href="image/p-2.jpg"
+                  data-fancybox="gallery"
+                  class="btn btn-outline-light"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project">
+              <img src="image/p-3.jpg" class="img-fluid" alt="" />
+
+              <div class="content">
+                <a
+                  href="image/p-3.jpg"
+                  data-fancybox="gallery"
+                  class="btn btn-outline-light"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project">
+              <img src="image/p-4.jpg" class="img-fluid" alt="" />
+
+              <div class="content">
+                <a
+                  href="image/p-4.jpg"
+                  data-fancybox="gallery"
+                  class="btn btn-outline-light"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project">
+              <img src="image/p-5.jpg" class="img-fluid" alt="" />
+
+              <div class="content">
+                <a
+                  href="image/p-5.jpg"
+                  data-fancybox="gallery"
+                  class="btn btn-outline-light"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project">
+              <img src="image/p-6.jpg" class="img-fluid" alt="" />
+
+              <div class="content">
+                <a
+                  href="image/p-6.jpg"
+                  data-fancybox="gallery"
+                  class="btn btn-outline-light"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="clients" class="section-connector section-padding">
+      <div class="container">
+        <h1 class="mb-3 text-center">Client's i have work with</h1>
+        <p class="sec-title text-center">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam
+          nesciunt omnis doloribus ipsa quod id!
+        </p>
+
+        <div class="row g-0">
+          <div class="col-md-3">
+            <div class="client p-5 text-center border">
+              <img src="image/logo01.svg" alt="">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="client p-5 text-center border">
+              <img src="image/logo02.svg"  alt="">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="client p-5 text-center border">
+              <img src="image/logo03.svg" alt="">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="client p-5 text-center border">
+              <img src="image/logo04.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div class="col-md-3">
+            <div class="client p-5 text-center border">
+              <img src="image/logo05.svg" alt="">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="client p-5 text-center border">
+              <img src="image/logo06.svg"  alt="">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="client p-5 text-center border">
+              <img src="image/logo07.svg" alt="">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="client p-5 text-center border">
+              <img src="image/logo08.svg" alt="">
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      Fancybox.bind("[data-fancybox='gallery']", {});
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
