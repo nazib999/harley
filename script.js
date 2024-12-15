@@ -7,3 +7,14 @@ window.onscroll = function(){
 
     }
 }
+document.addEventListener("DOMContentLoaded", function () {
+    var navMain = document.querySelector(".navbar-collapse");
+  
+    navMain.addEventListener("click", function (event) {
+      if (event.target.tagName === "A") {
+        // Hide the navbar
+        navMain.classList.remove("show");
+      }
+    });
+  });
+  
